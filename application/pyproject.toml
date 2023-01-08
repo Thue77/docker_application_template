@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "azure_services"
+version = "0.1.0"
+description = "Dummy application that uploads and downloads files to and from Azure Storage account"
+authors = ["Thomas Thue Sørensen"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
